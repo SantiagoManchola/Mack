@@ -111,7 +111,7 @@ a:focus,
 
 /* :::::::::::: HOME ::::::::::::: */
 .homepage-content{
-    background: url('../images/mack-pracodidacol.jpg') top center no-repeat;
+    background: url('../images/mack-pracodidacol.jpg') center no-repeat;
     background-size: 100% auto;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -1049,6 +1049,7 @@ body .cont-map #map-canvas .detailMap img {
     padding: 0 16px;
     color: white;
     font-size: 14px;
+    text-align: left;
     height: 35px;
     font-weight: 600;
     line-height: 37px;

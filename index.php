@@ -73,10 +73,11 @@
         </header>
         <!--/ Header -->
 
+        <!--Form-->
         <div class="homepage-content">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-6 relative">
+                    <div class="col-md-4 col-sm-6 relative">
                         <!-- Info -->
                         <div class="title-mack">
                             <h3>¡ÚLTIMAS UNIDADES</h3>
@@ -94,7 +95,7 @@
                         </div>
                         <!--/ Info -->
                     </div>
-                    <div class="col-sm-6">
+                    <div class=" col-md-8 col-sm-6">
                         <!-- Form Cotizar Mack -->
                         <section class="container_form_mack">
                             <div class="title-subtitle text-right">
@@ -260,58 +261,58 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <!--Form-->
 
-            <!--Mapa-->
-            <section class="cont-map clearfix">
-                <!-- <h3>Nuestras Sedes</h3> -->
-                <section class="relative">
-                    <!--Points Map-->
-                    <h5 class="title-map"><i class="fa fa-map-marker" aria-hidden="true"></i> Nuestras Sedes</h5>
-                    <div class="panelOficinasBg wow fadeInLeft">
-                        <ul class="listPoints clic">
+         <!--Mapa-->
+         <section class="cont-map clearfix">
+            <!-- <h3>Nuestras Sedes</h3> -->
+            <section class="relative">
+                <!--Points Map-->
+                <h5 class="title-map"><i class="fa fa-map-marker" aria-hidden="true"></i> Nuestras Sedes</h5>
+                <div class="panelOficinasBg wow fadeInLeft">
+                    <ul class="listPoints clic">
+                    </ul>
+                </div>
+                <!--Fin Points Map-->
+                <!--Filter-->
+                <div class="filter_map">
+                    <div class="itemFilter filterCity">
+                        <h6>
+                            <label>DEPARTAMENTO</label>
+                            <span>Seleccionar</span> <i class="fa fa-angle-down" aria-hidden="true"></i>
+                        </h6>
+                        <ul class="catgMaps">
+                            <li class="item" data-lat="4.656374" data-lng="-74.056778" data-city="Bogotá">
+                                <a href="javascript:void(0)">Bogotá</a>
+                            </li>
+                            <li class="item" data-lat="3.407025" data-lng="-76.526783" data-city="Cali">
+                                <a href="javascript:void(0)">Cali</a>
+                            </li>
+                            <li class="item" data-lat="6.217613" data-lng="-75.575933" data-city="Medellin">
+                                <a href="javascript:void(0)">Medellin</a>
+                            </li>
+                            <li class="item" data-lat="5.046988" data-lng="-75.482670" data-city="Manizales">
+                                <a href="javascript:void(0)">Manizales</a>
+                            </li>
+                            <li class="item" data-lat="4.800844" data-lng="-75.707747" data-city="Pereira">
+                                <a href="javascript:void(0)">Pereira</a>
+                            </li>
+                            <li class="item" data-lat="7.086660" data-lng="-73.138136" data-city="Bucaramanga">
+                                <a href="javascript:void(0)">Bucaramanga</a>
+                            </li>
+                            <li class="item" data-lat="5.562574" data-lng="-73.351573" data-city="Tunja">
+                                <a href="javascript:void(0)">Tunja</a>
+                            </li>
                         </ul>
                     </div>
-                    <!--Fin Points Map-->
-                    <!--Filter-->
-                    <div class="filter_map">
-                        <div class="itemFilter filterCity">
-                            <h6>
-                                <label>DEPARTAMENTO</label>
-                                <span>Seleccionar</span> <i class="fa fa-angle-down" aria-hidden="true"></i>
-                            </h6>
-                            <ul class="catgMaps">
-                                <li class="item" data-lat="4.656374" data-lng="-74.056778" data-city="Bogotá">
-                                    <a href="javascript:void(0)">Bogotá</a>
-                                </li>
-                                <li class="item" data-lat="3.407025" data-lng="-76.526783" data-city="Cali">
-                                    <a href="javascript:void(0)">Cali</a>
-                                </li>
-                                <li class="item" data-lat="6.217613" data-lng="-75.575933" data-city="Medellin">
-                                    <a href="javascript:void(0)">Medellin</a>
-                                </li>
-                                <li class="item" data-lat="5.046988" data-lng="-75.482670" data-city="Manizales">
-                                    <a href="javascript:void(0)">Manizales</a>
-                                </li>
-                                <li class="item" data-lat="4.800844" data-lng="-75.707747" data-city="Pereira">
-                                    <a href="javascript:void(0)">Pereira</a>
-                                </li>
-                                <li class="item" data-lat="7.086660" data-lng="-73.138136" data-city="Bucaramanga">
-                                    <a href="javascript:void(0)">Bucaramanga</a>
-                                </li>
-                                <li class="item" data-lat="5.562574" data-lng="-73.351573" data-city="Tunja">
-                                    <a href="javascript:void(0)">Tunja</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!--/ Filter-->
-                    <div class="all_offices"><i class="ti ti-list" aria-hidden="true"></i></div>
-                    <div id="map-canvas"></div>        
-                </section>
+                </div>
+                <!--/ Filter-->
+                <div class="all_offices"><i class="ti ti-list" aria-hidden="true"></i></div>
+                <div id="map-canvas"></div>        
             </section>
-            <!--Fin Mapa-->
-
-        </div>
+        </section>
+        <!--Fin Mapa-->
 
         <!-- Footer -->
         <footer>
