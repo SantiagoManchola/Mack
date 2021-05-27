@@ -3055,6 +3055,9 @@
 	    width: 112%;
 	    top: 54px;
 	}
+	.navbar.scroll.bg-tra .logo-mack img{
+		height: 43px;
+	}
 	/*Home*/
 	.homepage-content{
 		background-size: cover;
