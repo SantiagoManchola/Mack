@@ -5,42 +5,42 @@ require_once "vendor/autoload.php";
 //PHPMailer Object
 $mail = new \PHPMailer\PHPMailer\PHPMailer();
 
-$modelo = $_REQUEST['modelo'];
-$nombres = $_REQUEST['nombres'];
+$name = $_REQUEST['name'];
+$lastname = $_REQUEST['lastname'];
+$phone = $_REQUEST['phone'];
 $email = $_REQUEST['email'];
-$celular = $_REQUEST['celular'];
-$mensaje = $_REQUEST['mensaje'];
-$ciudad = $_REQUEST['ciudad'];
+$identification = $_REQUEST['identification'];
+$city = $_REQUEST['city'];
 
 
-if($celular){
+if($phone){
 //Luego tenemos que iniciar la validación por SMTP:
     try {
         $mail->IsSMTP();
         $mail->SMTPAuth = true;
-        $mail->Host = "smtp.sendgrid.net"; // A RELLENAR. Aquí pondremos el SMTP a utilizar. Por ej. mail.midominio.com
-        $mail->Username = "solucionsoftsas"; // A RELLENAR. Email de la cuenta de correo. ej.info@midominio.com La cuenta de correo debe ser creada previamente.
-        $mail->Password = "JESUS.rincon9"; // A RELLENAR. Aqui pondremos la contraseña de la cuenta de correo
+        $mail->Host = "smtp-relay.sendinblue.com"; // A RELLENAR. Aquí pondremos el SMTP a utilizar. Por ej. mail.midominio.com
+        $mail->Username = "contacto@solucionsoft.com"; // A RELLENAR. Email de la cuenta de correo. ej.info@midominio.com La cuenta de correo debe ser creada previamente.
+        $mail->Password = "w3R0vApxWrH7QKEN"; // A RELLENAR. Aqui pondremos la contraseña de la cuenta de correo
         $mail->Port = 587; // Puerto de conexión al servidor de envio.
         $mail->From = "pagina@subarutourvirtual.com"; // A RELLENARDesde donde enviamos (Para mostrar). Puede ser el mismo que el email creado previamente.
-        $mail->FromName = "Tour Virtual subarutourvirtual.com"; //A RELLENAR Nombre a mostrar del remitente.
-        $mail->AddAddress("jesuserrincon@gmail.com"); // Esta es la dirección a donde enviamos
-        $mail->AddAddress("contacto_subaru@didacol.com"); // Esta es la dirección a donde enviamos
+        $mail->FromName = "Mack Landing Anthem"; //A RELLENAR Nombre a mostrar del remitente.
+        $mail->AddAddress("contacto@solucionsoft.com"); // Esta es la dirección a donde enviamos
+        //$mail->AddAddress("contacto_subaru@didacol.com"); // Esta es la dirección a donde enviamos
         $mail->IsHTML(true); // El correo se envía como HTML
-        $mail->Subject = "Contacto Tour Virtual Subaru"; // Este es el titulo del email.
+        $mail->Subject = "Lead MACK ANTHEM 2020"; // Este es el titulo del email.
         $body = "";
-        $body .= "Modelo: ".$modelo."<br/>";
-        $body .= "Nobres: ".$nombres."<br/>";
+        $body .= "Nombres: ".$name."<br/>";
+        $body .= "Apellidos: ".$lastname."<br/>";
         $body .= "Email: ".$email."<br/>";
-        $body .= "Celular: ".$celular."<br/>";
-        $body .= "Ciudad: ".$ciudad."<br/>";
-        $body .= "Mensaje: ".$mensaje."<br/>";
+        $body .= "Celular: ".$phone."<br/>";
+        $body .= "Cedula: ".$identification."<br/>";
+        $body .= "Ciudad: ".$city."<br/>";
 
         $mail->Body = $body;
 
         $exito = $mail->Send(); // Envía el correo.
         if($exito){
-            header('Location: index.php?Error=1');
+            header('Location: gracias.php?Error=1');
         }else{
             header('Location: index.php?Error=2');
         }

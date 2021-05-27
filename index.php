@@ -109,19 +109,19 @@
                                         <div class="col-sm-6">
                                             <div class="form-group">
                                                 <label>Nombre(s)</label>
-                                                <input type="text" name="nombres" id="nombres" size="40" class="form-control" aria-required="true" />
+                                                <input type="text" name="name" id="name" size="40" class="form-control" aria-required="true" />
                                             </div>
                                         </div>
                                         <div class="col-sm-6">
                                             <div class="form-group">
                                                 <label>Apellidos</label>
-                                                <input type="text" name="apellido" id="apellido" size="40" class="form-control" aria-required="true" />
+                                                <input type="text" name="lastname" id="lastname" size="40" class="form-control" aria-required="true" />
                                             </div>
                                         </div>
                                         <div class="col-sm-6">
                                             <div class="form-group">
                                                 <label>Celular</label>
-                                                <input type="number" name="celular" id="celular" size="40" class="form-control" aria-required="true" />
+                                                <input type="number" name="phone" id="phone" size="40" class="form-control" aria-required="true" />
                                             </div>
                                         </div>
                                         <div class="col-sm-6">
@@ -133,13 +133,13 @@
                                         <div class="col-sm-6">
                                             <div class="form-group">
                                                 <label>Cédula</label>
-                                                <input type="number" name="cedula" id="cedula" size="40" class="form-control" aria-required="true" />
+                                                <input type="number" name="identification" id="identification" size="40" class="form-control" aria-required="true" />
                                             </div>
                                         </div>
                                         <div class="col-sm-6">
                                             <div class="form-group">
                                                 <label>Ciudad</label>
-                                                <select name="ciudad" id="ciudad" class="form-control" aria-required="true">
+                                                <select name="city" id="city" class="form-control" aria-required="true">
                                                     <option value="">Seleccionar</option>
                                                     <option value="Aguachica Cesar || 20011">Aguachica Cesar</option>
                                                     <option value="Apartadó || 5045">Apartadó</option>
@@ -356,12 +356,25 @@
         jQuery(document).ready(function() {
             jQuery('#FormCotizar').on('submit', function(e) { //use on if jQuery 1.7+
                 //e.preventDefault();  //prevent form from submitting
-                var nombres = jQuery('#nombres').val();
-                var cedula = jQuery('#cedula').val();
+                var name = jQuery('#name').val();
+                var identification = jQuery('#identification').val();
+                var lastname = jQuery('#lastname').val();
+                var phone = jQuery('#phone').val();
                 var email = jQuery('#email').val();
-                var celular = jQuery('#celular').val();
-                var mensaje = jQuery('#mensaje').val();
-                if(!nombres){
+                var city = jQuery('#city').val();
+                var authorize = jQuery('input[name=terminos]:checked', '#FormCotizar').val();
+
+                if(authorize != 'on') {
+                    jQuery('.preloader-pracodidacol').removeClass('open');
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Error...',
+                        text: 'Debe aceptar los terminos!',
+                    });
+                    return false;
+                }
+
+                if(!name){
                     Swal.fire(
                         'Error',
                         'Debe diligenciar el nombre!',
@@ -369,10 +382,10 @@
                     );
                     return false;
                 }
-                if(!cedula){
+                if(!lastname){
                     Swal.fire(
                         'Error',
-                        'Debe diligenciar la cedula!',
+                        'Debe diligenciar el  apellido!',
                         'error'
                     );
                     return false;
@@ -385,7 +398,7 @@
                     );
                     return false;
                 }
-                if(!celular){
+                if(!phone){
                     Swal.fire(
                         'Error',
                         'Debe diligenciar el celular!',
@@ -393,18 +406,10 @@
                     );
                     return false;
                 }
-                if(!mensaje){
+                if(!city){
                     Swal.fire(
                         'Error',
-                        'Debe diligenciar el mensaje!',
-                        'error'
-                    );
-                    return false;
-                }
-                if(!jQuery('#politicasCheck').prop("checked")){
-                    Swal.fire(
-                        'Error',
-                        'Debe aceptar las politicas!',
+                        'Debe diligenciar la ciudad!',
                         'error'
                     );
                     return false;
