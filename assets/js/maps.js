@@ -48,6 +48,12 @@ jQuery(window).ready(function(){
       var labels = '123456789';
       var mapOptions = {
           zoom: 6,
+          // zoomControl: false,
+          mapTypeControl: false,
+          // scaleControl: false,
+          // streetViewControl: false,
+          // rotateControl: false,
+          // fullscreenControl: false,
           // disableDefaultUI: true,
           scrollwheel: false,
           mapTypeId: google.maps.MapTypeId.ROADMAP,
