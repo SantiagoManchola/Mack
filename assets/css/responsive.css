@@ -2975,6 +2975,14 @@
 
 
 /*===================== RESPONSIVE - TABLET ==========================*/
+@media (max-width: 1024px){
+	.homepage-content {
+		background-size: cover;
+	}
+	.homepage-content > .container{
+		padding: 0 55px 90px;
+	}
+}
 @media (max-width: 992px) {
 	body .navbar.scroll.bg-tra{
 		padding: 0 1rem;
@@ -3159,6 +3167,16 @@
 		width: 100%
 	}
 	/*Sedes*/
+	body .filter_map{
+		width: 100%;
+		left: 0px;
+	}
+	body .cont-map .relative{
+		padding: 0;
+	}
+	body .title-map {
+    	padding: 0 20px 10px;
+	}
 	body #talleres h3{
 		margin: 0;
 	}

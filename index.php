@@ -77,7 +77,7 @@
         <div class="homepage-content">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 col-md-4 col-sm-12 relative">
+                    <div class="col-lg-6 col-md-4 col-sm-4 col-xs-12 relative">
                         <!-- Info -->
                         <div class="title-mack">
                             <h3>¡ÚLTIMAS UNIDADES</h3>
@@ -95,7 +95,7 @@
                         </div>
                         <!--/ Info -->
                     </div>
-                    <div class="col-lg-6 col-md-8 col-sm-12">
+                    <div class="col-lg-6 col-md-8 col-sm-8 col-xs-12">
                         <!-- Form Cotizar Mack -->
                         <section class="container_form_mack">
                             <div class="title-subtitle text-right">
