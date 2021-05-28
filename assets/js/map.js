@@ -6,49 +6,49 @@ jQuery(window).ready(function(){
       var markers = new Array();
       var locations = [
         [
-          new google.maps.LatLng(4.666338855391111, -74.1459285589105),
+          new google.maps.LatLng(4.625792609527766, -74.09606360992629),
           'BOGOTÁ - FONTIBÓN',
           '(1) 3808959',
           'Diagonal 16 Cra 96i - 15',
         ],  
         [
-          new google.maps.LatLng(4.682951320911355, -74.09263799628089),
+          new google.maps.LatLng(4.693443542880865, -74.07600191534152),
           'BOGOTÁ - MORATO',
           '(1) 4238300',
           'Carrera 70 No. 99a-00',
         ],  
         [
-          new google.maps.LatLng(4.7992147472896205, -74.11090547406435),
+          new google.maps.LatLng(4.736021437638309, -74.1341668),
           'BOGOTÁ - SIBERIA / COTA',
           '(1) 3808920',
           'Calle 80 Autopista Medellin Km 1.2 vía Siberia costado Sur',
         ],   
         [
-          new google.maps.LatLng(10.895373433994418, -74.77009997420842),
+          new google.maps.LatLng(10.895362915144984, -74.77011071440245),
           'BARRANQUILLA',
           '(5) 3160300',
           'Soledad Calle 31 No 23 – 57',
         ], 
         [
-          new google.maps.LatLng(7.095986801467704, -73.11668376074523),
+          new google.maps.LatLng(7.086402079832445, -73.13849445387098),
           'BUCARAMANGA',
           '(7) 6910200',
           'Calle 70 # 32W-92 Km 4 Vía Girón',
         ],  
         [
-          new google.maps.LatLng(3.4969870683295667, -76.50668403192705),
+          new google.maps.LatLng(3.497158412600352, -76.50671621534153),
           'CALI-YUMBO',
           '(2) 3692100',
           'Sede Norte Cra. 36 No.15-95 Acopi-Yumbo',
         ], 
         [
-          new google.maps.LatLng(6.166285796996957, -75.60936073191539),
+          new google.maps.LatLng(6.166219601181037, -75.6090319),
           'ITAGUÍ',
           '(4) 2040210',
           'Cra 42 No. 46-130 Autopista Sur',
         ],  
         [
-          new google.maps.LatLng(4.811694670870251, -75.70684728959289),
+          new google.maps.LatLng(4.81163052821221, -75.7068151),
           'PEREIRA',
           '(6) 3470200',
           'Avenida 30 de agosto No. 33-09',
@@ -315,7 +315,7 @@ jQuery(window).ready(function(){
         var city = jQuery(this).attr("data-city");
         var latlng = new google.maps.LatLng(lat,lng);
         map.setCenter(latlng);
-        map.setZoom(10);
+        map.setZoom(11);
         jQuery('.filterCity h6 span').html(city);
       });
 

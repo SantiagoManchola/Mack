@@ -348,7 +348,7 @@
     <script type='text/javascript' src='assets/js/app.js'></script> -->
     <script type='text/javascript' src='assets/js/app.min.js'></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCeGRfNeigkXnmLu_E-kxhclngO-81shFQ"></script>
-    <script type='text/javascript' src="assets/js/maps.js"></script>
+    <script type='text/javascript' src="assets/js/map.js"></script>
     <script>
         jQuery(document).ready(function() {
             jQuery('#FormCotizar').on('submit', function(e) { //use on if jQuery 1.7+
