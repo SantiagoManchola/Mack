@@ -51,7 +51,7 @@
                         <div class="header-socials">
                             <ul class="s-links-icons text-center clearfix">
                                 <li>
-                                    <a class="s-link ico-facebook" href="https://www.facebook.com/MackTrucks" target="_blank" title="facebook">
+                                    <a class="s-link ico-facebook" href="https://www.facebook.com/macktruckscol" target="_blank" title="facebook">
                                         <i class="fa fa-facebook"></i>
                                     </a>
                                 </li>

@@ -22,10 +22,11 @@ if($phone){
         $mail->Username = "contacto@solucionsoft.com"; // A RELLENAR. Email de la cuenta de correo. ej.info@midominio.com La cuenta de correo debe ser creada previamente.
         $mail->Password = "w3R0vApxWrH7QKEN"; // A RELLENAR. Aqui pondremos la contraseña de la cuenta de correo
         $mail->Port = 587; // Puerto de conexión al servidor de envio.
-        $mail->From = "pagina@subarutourvirtual.com"; // A RELLENARDesde donde enviamos (Para mostrar). Puede ser el mismo que el email creado previamente.
+        $mail->From = "no-reply@pracodidacol.com.co"; // A RELLENARDesde donde enviamos (Para mostrar). Puede ser el mismo que el email creado previamente.
         $mail->FromName = "Mack Landing Anthem"; //A RELLENAR Nombre a mostrar del remitente.
         $mail->AddAddress("contacto@solucionsoft.com"); // Esta es la dirección a donde enviamos
-        //$mail->AddAddress("contacto_subaru@didacol.com"); // Esta es la dirección a donde enviamos
+        $mail->AddAddress("mack_contacto@didacol.com"); // Esta es la dirección a donde enviamos
+        $mail->AddAddress("habeasdata@didacol.com"); // Esta es la dirección a donde enviamos
         $mail->IsHTML(true); // El correo se envía como HTML
         $mail->Subject = "Lead MACK ANTHEM 2020"; // Este es el titulo del email.
         $body = "";
