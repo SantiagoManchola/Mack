@@ -12,6 +12,12 @@ jQuery(window).ready(function(){
           'Diagonal 16 Cra 96i - 15',
         ],  
         [
+          new google.maps.LatLng(4.7992147472896205, -74.11090547406435),
+          'SIBERIA - COTA',
+          '(1) 3808920',
+          'Calle 80 Autopista Medellin Km 1.2 vía Siberia costado Sur',
+        ],  
+        [
           new google.maps.LatLng(6.166285796996957, -75.60936073191539),
           'ITAGUÍ',
           '(4) 2040210',
