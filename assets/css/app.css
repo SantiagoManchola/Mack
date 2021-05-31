@@ -854,7 +854,7 @@ body .cont-map #map-canvas .detailMap img {
     z-index: 4;
     top: 0;
     left: 398px;
-    padding: 53px 25px 32px 29px;
+    padding: 53px 25px 7px 29px;
     width: calc(100% - 398px);
     background: linear-gradient(0deg, rgba(0,0,0,0) 46%, rgba(0,0,0,0.427608543417367) 100%);
 }
@@ -940,7 +940,7 @@ body .cont-map #map-canvas .detailMap img {
     animation: none
 }
 .filter_map .itemFilter h6 label {
-    color: white;
+    color: var(--primary-color);
     position: absolute;
     z-index: 2;
     bottom: 100%;

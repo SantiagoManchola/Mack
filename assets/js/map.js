@@ -6,7 +6,7 @@ jQuery(window).ready(function(){
       var markers = new Array();
       var locations = [
         [
-          new google.maps.LatLng(4.625792609527766, -74.09606360992629),
+          new google.maps.LatLng(4.666435689696084, -74.14815038255725),
           'BOGOTÁ - FONTIBÓN',
           '(1) 3808959',
           'Diagonal 16 Cra 96i - 15',
@@ -24,7 +24,7 @@ jQuery(window).ready(function(){
           'Calle 80 Autopista Medellin Km 1.2 vía Siberia costado Sur',
         ],   
         [
-          new google.maps.LatLng(10.895362915144984, -74.77011071440245),
+          new google.maps.LatLng(10.895373441753495, -74.77006778465848),
           'BARRANQUILLA',
           '(5) 3160300',
           'Soledad Calle 31 No 23 – 57',
@@ -57,19 +57,18 @@ jQuery(window).ready(function(){
   
       //Options Maps
       var icons = 'assets/images/pointer.svg';
-      var labels = '123456789';
       var mapOptions = {
           zoom: 6,
           // zoomControl: false,
           mapTypeControl: false,
           // scaleControl: false,
-          // streetViewControl: false,
+          streetViewControl: false,
           // rotateControl: false,
           // fullscreenControl: false,
           // disableDefaultUI: true,
           scrollwheel: false,
           mapTypeId: google.maps.MapTypeId.ROADMAP,
-          center: new google.maps.LatLng(6.983522878567234, -75.66065309074902),
+          center: new google.maps.LatLng(7.643056950668843, -74.45182595793887),
           styles: [
             {
               "elementType": "geometry",
@@ -267,6 +266,7 @@ jQuery(window).ready(function(){
                   );
                   infowindow.open(map, marker);
                   map.setCenter(marker.getPosition());
+                  map.setZoom(13);
   
                   jQuery('.listPoints li').removeClass('active');
                   jQuery('.listPoints li').eq(i).addClass('active');
