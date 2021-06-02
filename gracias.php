@@ -17,14 +17,7 @@
     <!--Style-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
-    <link rel='stylesheet' href='assets/css/bootstrap.min.css' type='text/css' media='all' />
-    <link rel='stylesheet' href='assets/css/font-awesome.min.css' type='text/css' media='all' />
-    <link rel='stylesheet' href='assets/css/animate.css' type='text/css' media='all' />
-    <link rel='stylesheet' href='assets/css/sweetalert2.min.css' type='text/css' media='all' />
-    <link rel='stylesheet' href='assets/css/style.css' type='text/css' media='all' />
-    <link rel='stylesheet' href='assets/css/app.css' type='text/css' media='all' />
-    <link rel='stylesheet' href='assets/css/responsive.css' type='text/css' media='all' />
-    <!-- <link rel='stylesheet' href='assets/css/app.min.css' type='text/css' media='all' /> -->
+    <link rel='stylesheet' href='assets/css/app.min.css?ver=1.7.0' type='text/css' media='all' />
 </head>
 
 <body>
@@ -182,13 +175,8 @@
     </main>
 
     <!-- Js -->
-    <script type='text/javascript' src='assets/js/lib/jquery.js'></script>
-    <script type='text/javascript' src='assets/js/lib/jquery-migrate.min.js'></script>
-    <script type='text/javascript' src='assets/js/lib/bootstrap.min.js'></script>
-    <script type='text/javascript' src='assets/js/lib/modernizr.custom.js'></script>
-    <script type='text/javascript' src='assets/js/lib/sweetalert2.min.js'></script>
-    <script type='text/javascript' src='assets/js/app.js'></script>
+    <script type='text/javascript' src='assets/js/app.min.js?ver=1.7.0'></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCeGRfNeigkXnmLu_E-kxhclngO-81shFQ"></script>
-    <script type='text/javascript' src="assets/js/maps.js"></script>
+    <script type='text/javascript' src="assets/js/map.min.js?ver=1.7.0"></script>
 </body>
 </html>
