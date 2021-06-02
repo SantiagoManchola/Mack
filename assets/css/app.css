@@ -403,8 +403,26 @@ body .cont-map #map-canvas .cdetailMap h1{
 body .cont-map #map-canvas .cdetailMap p{
     font-size:13px;display:block;margin:0;color:#606060;line-height:18px;
 }
-body .cont-map #map-canvas .cdetailMap img{
-    width:100%;margin:10px 0 0;display:block
+body .cdetailMap .btn{
+    display: flex;
+    padding: 4px 5px;
+    align-items: center;
+    border-radius: 7px;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: 'Open Sans',sans-serif;
+    letter-spacing: -0.4px;
+    font-weight: 700;
+    margin-top: 11px;
+}
+body .cdetailMap .btn img{
+    height: 22px;
+    width: auto;
+    margin: 0 13px 0 0;
 }
 
 
