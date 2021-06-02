@@ -37,7 +37,7 @@ if($phone){
         $body .= "Email: ".$email."<br/>";
         $body .= "Celular: ".$phone."<br/>";
         $body .= "Cedula: ".$identification."<br/>";
-        $body .= "Ciudad: ".$city."<br/>";
+        $body .= "Ciudad: ".$city."<br/>Lead Mack Anthem";
 
 
         $htmlautoresponse = '<!DOCTYPE html>
@@ -108,7 +108,7 @@ if($phone){
                                                             <tr>
                                                                 <td valign="top" align="center"
                                                                     style="font-family:Open Sans,Verdana,Arial;font-size:12px;color:#a1a1a1;font-weight:normal;line-height:14px">
-                                                                    <img src="https://pracodidacol.com/mackanthem/assets/images/logo.svg"
+                                                                    <img src="https://pracodidacol.com/mackanthem/assets/images/logo.png"
                                                                         style="height:50px" class="CToWUd a6T"
                                                                         tabindex="0">
                                                                     <div class="a6S" dir="ltr"
