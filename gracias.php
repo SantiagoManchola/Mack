@@ -73,7 +73,6 @@
                     <div class="col-lg-12 col-md-12 col-sm-12 relative min-heigh-thank">
                         <!-- Info -->
                         <div class="title-mack thank">
-                         Y CV  
                             <h3>¡TUS DATOS</h3>
                             <h1>HAN SIDO ENVIADOS CON ÉXITO!</h1>
                             <h3>MUY PRONTO NOS COMUNICAREMOS CONTIGO!</h3>
@@ -117,23 +116,20 @@
                             <li class="item" data-lat="4.656374" data-lng="-74.056778" data-city="Bogotá">
                                 <a href="javascript:void(0)">Bogotá</a>
                             </li>
-                            <li class="item" data-lat="3.407025" data-lng="-76.526783" data-city="Cali">
-                                <a href="javascript:void(0)">Cali</a>
-                            </li>
-                            <li class="item" data-lat="6.217613" data-lng="-75.575933" data-city="Medellin">
-                                <a href="javascript:void(0)">Medellin</a>
-                            </li>
-                            <li class="item" data-lat="5.046988" data-lng="-75.482670" data-city="Manizales">
-                                <a href="javascript:void(0)">Manizales</a>
-                            </li>
-                            <li class="item" data-lat="4.800844" data-lng="-75.707747" data-city="Pereira">
-                                <a href="javascript:void(0)">Pereira</a>
+                            <li class="item" data-lat="10.980511960287028" data-lng="-74.79796131067351" data-city="Barranquilla">
+                                <a href="javascript:void(0)">Barranquilla</a>
                             </li>
                             <li class="item" data-lat="7.086660" data-lng="-73.138136" data-city="Bucaramanga">
                                 <a href="javascript:void(0)">Bucaramanga</a>
                             </li>
-                            <li class="item" data-lat="5.562574" data-lng="-73.351573" data-city="Tunja">
-                                <a href="javascript:void(0)">Tunja</a>
+                            <li class="item" data-lat="3.407025" data-lng="-76.526783" data-city="Cali">
+                                <a href="javascript:void(0)">Cali</a>
+                            </li>
+                            <li class="item" data-lat="6.168337840962436" data-lng="-75.61950912504366" data-city="Itagüí">
+                                <a href="javascript:void(0)">Itagüí</a>
+                            </li>
+                            <li class="item" data-lat="4.800844" data-lng="-75.707747" data-city="Pereira">
+                                <a href="javascript:void(0)">Pereira</a>
                             </li>
                         </ul>
                     </div>
