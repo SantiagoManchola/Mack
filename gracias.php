@@ -76,7 +76,7 @@
                          Y CV  
                             <h3>¡TUS DATOS</h3>
                             <h1>HAN SIDO ENVIADOS CON ÉXITO!</h1>
-                            <h3>MUY PRONTO NOS COMUNICAREMOS CON USTED!</h3>
+                            <h3>MUY PRONTO NOS COMUNICAREMOS CONTIGO!</h3>
                             <a href="index.php" class="btn btn-primary">Volver al inicio</a>
                         </div>
                         <div class="mack-contact">
