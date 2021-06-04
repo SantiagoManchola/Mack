@@ -1138,7 +1138,8 @@ body .cont-map #map-canvas .detailMap img {
         -o-transform: scale(1);
         -ms-transform: scale(1);
         -moz-transform: scale(1);
-        transform: scale(1)
+        transform: scale(1);
+        display: none;
     }
 }
 .all_offices i {
