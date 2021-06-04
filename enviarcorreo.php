@@ -295,7 +295,7 @@ if($phone){
         $mail2->Send();
 
         $mail->Body = $body;
-
+        //$exito = true;
         $exito = $mail->Send(); // Envía el correo.
         if($exito){
             header('Location: gracias.php?Error=1');
