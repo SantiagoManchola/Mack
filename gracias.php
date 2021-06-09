@@ -18,6 +18,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
     <link rel='stylesheet' href='assets/css/app.min.css?ver=1.8.0' type='text/css' media='all' />
+    <!-- Global site tag (gtag.js) - Google Ads: 365701067 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-365701067"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'AW-365701067');
+    </script>
     <!-- Facebook Pixel Code -->
     <script>
         !function(f,b,e,v,n,t,s)

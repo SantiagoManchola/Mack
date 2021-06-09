@@ -25,6 +25,15 @@
     <link rel='stylesheet' href='assets/css/app.css' type='text/css' media='all' />
     <link rel='stylesheet' href='assets/css/responsive.css' type='text/css' media='all' /> -->
     <link rel='stylesheet' href='assets/css/app.min.css?ver=1.1.0' type='text/css' media='all' />
+    <!-- Global site tag (gtag.js) - Google Ads: 365701067 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-365701067"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'AW-365701067');
+    </script>
     <!-- Facebook Pixel Code -->
     <script>
         !function(f,b,e,v,n,t,s)
