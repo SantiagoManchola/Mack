@@ -36,7 +36,9 @@ if($phone){
         $body .= "Apellidos: ".$lastname."<br/>";
         $body .= "Email: ".$email."<br/>";
         $body .= "Celular: ".$phone."<br/>";
-        $body .= "Cedula: ".$identification."<br/>";
+        if($identification){
+            $body .= "Cedula: ".$identification."<br/>";
+        }
         $body .= "Ciudad: ".$city."<br/>Lead Mack Anthem";
 
 
