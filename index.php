@@ -25,6 +25,23 @@
     <link rel='stylesheet' href='assets/css/app.css' type='text/css' media='all' />
     <link rel='stylesheet' href='assets/css/responsive.css' type='text/css' media='all' /> -->
     <link rel='stylesheet' href='assets/css/app.min.css?ver=1.1.0' type='text/css' media='all' />
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window, document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1478182898948673');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+                   src="https://www.facebook.com/tr?id=1478182898948673&ev=PageView&noscript=1"
+        /></noscript>
+    <!-- End Facebook Pixel Code -->
 </head>
 
 <body>
@@ -251,7 +268,7 @@
                                     </div>
                                     <div class="col-sm-12 campaing">
                                         <h6>FORTALECEMOS EL VÍNCULO ESENCIAL ENTRE EL HOMBRE Y LA MÁQUINA</h6>
-                                        <p>*VÁLIDO DEL 20 DE MAYO AL 30 DE JUNIO DE 2021. MAYOR INFORMACIÓN EN WWW.PRACODIDACOL.COM</p>
+                                        <p>*VÁLIDO DEL 10 DE JUNIO AL 31 DE JULIO DE 2021. MAYOR INFORMACIÓN EN WWW.PRACODIDACOL.COM.</p>
                                         <div>
                                         </div>
                             </form>
