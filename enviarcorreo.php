@@ -10,7 +10,6 @@ $name = $_REQUEST['name'];
 $lastname = $_REQUEST['lastname'];
 $phone = $_REQUEST['phone'];
 $email = $_REQUEST['email'];
-$identification = $_REQUEST['identification'];
 $city = $_REQUEST['city'];
 
 
@@ -36,9 +35,6 @@ if($phone){
         $body .= "Apellidos: ".$lastname."<br/>";
         $body .= "Email: ".$email."<br/>";
         $body .= "Celular: ".$phone."<br/>";
-        if($identification){
-            $body .= "Cedula: ".$identification."<br/>";
-        }
         $body .= "Ciudad: ".$city."<br/>Lead Mack Anthem";
 
 

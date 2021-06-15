@@ -156,12 +156,12 @@
                                             <input type="email" name="email" id="email" size="40" class="form-control" aria-required="true" />
                                         </div>
                                     </div>
-                                    <div class="col-sm-6">
+                                    <!--<div class="col-sm-6">
                                         <div class="form-group">
                                             <label>Cédula</label>
                                             <input type="number" name="identification" id="identification" size="40" class="form-control" aria-required="true" />
                                         </div>
-                                    </div>
+                                    </div>-->
                                     <div class="col-sm-6">
                                         <div class="form-group">
                                             <label>Ciudad</label>
@@ -384,7 +384,6 @@
             //e.preventDefault();  //prevent form from submitting
             jQuery("#btnSubmit").attr("disabled", true);
             var name = jQuery('#name').val();
-            var identification = jQuery('#identification').val();
             var lastname = jQuery('#lastname').val();
             var phone = jQuery('#phone').val();
             var email = jQuery('#email').val();
