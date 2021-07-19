@@ -277,7 +277,7 @@
                                     </div>
                                     <div class="col-sm-12 campaing">
                                         <h6>FORTALECEMOS EL VÍNCULO ESENCIAL ENTRE EL HOMBRE Y LA MÁQUINA</h6>
-                                        <p>*VÁLIDO DEL 10 DE JUNIO AL 31 DE JULIO DE 2021. MAYOR INFORMACIÓN EN WWW.PRACODIDACOL.COM.</p>
+                                        <p>*VÁLIDO DEL 1 DE JULIO AL 31 DE AGOSTO DE 2021. MAYOR INFORMACIÓN EN WWW.PRACODIDACOL.COM.</p>
                                         <div>
                                         </div>
                             </form>
