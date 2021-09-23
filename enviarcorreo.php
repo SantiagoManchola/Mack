@@ -25,7 +25,7 @@ if($phone){
         $mail->From = "no-reply@pracodidacol.com.co"; // A RELLENARDesde donde enviamos (Para mostrar). Puede ser el mismo que el email creado previamente.
         $mail->CharSet = 'UTF-8';
         $mail->FromName = "Mack Landing Anthem"; //A RELLENAR Nombre a mostrar del remitente.
-        $mail->AddAddress("contacto@solucionsoft.com"); // Esta es la dirección a donde enviamos
+        //$mail->AddAddress("contacto@solucionsoft.com"); // Esta es la dirección a donde enviamos
         $mail->AddAddress("mack_contacto@didacol.com"); // Esta es la dirección a donde enviamos
         $mail->AddAddress("habeasdata@didacol.com"); // Esta es la dirección a donde enviamos
         $mail->IsHTML(true); // El correo se envía como HTML
