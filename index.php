@@ -106,13 +106,13 @@
                 <div class="col-lg-6 col-md-4 col-sm-4 col-xs-12 relative">
                     <!-- Info -->
                     <div class="title-mack">
-                        <h3>¡ÚLTIMAS UNIDADES</h3>
-                        <h1>MACK ANTHEM 2020</h1>
-                        <h3>CON PRECIO EN PESOS!</h3>
+                        <h1>MACK ANTHEM 2022</h1>
+                        <h3>VERSIONES MDRIVE Y MECÁNICA A LA VENTA YA!</h3>
+                        <!--<h3>CON PRECIO EN PESOS!</h3>-->
                     </div>
                     <div class="mack-contact">
                         <img src="assets/images/iconos-seguridad.svg" />
-                        <h4>¡Y ABRIMOS PREVENTA EN UNIDADES 2022!</h4>
+                        <h4>¡PREGUNTA POR NUESTROS PRECIOS, TE SORPRENDERÁS!</h4>
                         <h5>PREGUNTA YA</h5>
                         <div class="contact-mack">
                             <a href="tel:320 838 9315"><span><i class="fa fa-phone" aria-hidden="true"></i></span> 320 838 9315</a>
@@ -277,7 +277,7 @@
                                     </div>
                                     <div class="col-sm-12 campaing">
                                         <h6>FORTALECEMOS EL VÍNCULO ESENCIAL ENTRE EL HOMBRE Y LA MÁQUINA</h6>
-                                        <p>*VÁLIDO DEL 1 DE JULIO AL 31 DE AGOSTO DE 2021. MAYOR INFORMACIÓN EN WWW.PRACODIDACOL.COM.</p>
+                                        <p>*VÁLIDO DEL 1 DE NOVIEMBRE DEL 2021 AL 31 DE MARZO DEL 2022 O HASTA AGOTAR UNIDADES DISPONIBLES. MAYOR INFORMACIÓN EN WWW.PRACODIDACOL.COM.</p>
                                         <div>
                                         </div>
                             </form>
@@ -373,7 +373,7 @@
 <script type='text/javascript' src='assets/js/lib/sweetalert2.min.js'></script>
 <script type='text/javascript' src='assets/js/app.js'></script> -->
 <script type='text/javascript' src='assets/js/app.min.js'></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCeGRfNeigkXnmLu_E-kxhclngO-81shFQ"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDrt-8u346VZCpmjwFbVsQ_XkQK9aazB8k"></script>
 <script type='text/javascript' src="assets/js/map.js"></script>
 <script>
 

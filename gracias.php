@@ -106,7 +106,7 @@
                         </div>
                         <div class="mack-contact">
                             <img src="assets/images/iconos-seguridad.svg" />
-                            <h4>¡Y ABRIMOS PREVENTA EN UNIDADES 2022!</h4>
+                            <h4>¡PREGUNTA POR NUESTROS PRECIOS, TE SORPRENDERÁS!</h4>
                             <h5>PREGUNTA YA</h5>
                             <div class="contact-mack">
                                 <a href="tel:320 838 9315"><span><i class="fa fa-phone" aria-hidden="true"></i></span> 320 838 9315</a>
@@ -198,7 +198,7 @@
 
     <!-- Js -->
     <script type='text/javascript' src='assets/js/app.min.js?ver=1.8.0'></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCeGRfNeigkXnmLu_E-kxhclngO-81shFQ"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDrt-8u346VZCpmjwFbVsQ_XkQK9aazB8k"></script>
     <script type='text/javascript' src="assets/js/map.min.js?ver=1.8.0"></script>
 </body>
 </html>
