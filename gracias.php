@@ -107,7 +107,6 @@
                         <div class="mack-contact">
                             <img src="assets/images/iconos-seguridad.svg" />
                             <h4>¡PREGUNTA POR NUESTROS PRECIOS, TE SORPRENDERÁS!</h4>
-                            <h5>PREGUNTA YA</h5>
                             <div class="contact-mack">
                                 <a href="tel:320 838 9315"><span><i class="fa fa-phone" aria-hidden="true"></i></span> 320 838 9315</a>
                                 <a href="mailto:mack_contacto@didacol.com"><span><i class="fa fa-envelope" aria-hidden="true"></i></span> mack_contacto@didacol.com</a>
