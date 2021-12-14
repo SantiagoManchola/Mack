@@ -372,7 +372,7 @@
 <script type='text/javascript' src='assets/js/lib/sweetalert2.min.js'></script>
 <script type='text/javascript' src='assets/js/app.js'></script> -->
 <script type='text/javascript' src='assets/js/app.min.js'></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDrt-8u346VZCpmjwFbVsQ_XkQK9aazB8k"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDezJJOrWYTpu9RGqZfMYiFG-tf79N8sAs"></script>
 <script type='text/javascript' src="assets/js/map.js"></script>
 <script>
 
