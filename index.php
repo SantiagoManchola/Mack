@@ -4,7 +4,7 @@
 <head>
 
     <!-- Google Tag Manager -->
-    <script>
+    <!-- <script>
         (function(w, d, s, l, i) {
             w[l] = w[l] || [];
             w[l].push({
@@ -19,8 +19,23 @@
                 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
             f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-PVP3H42');
-    </script>
+    </script> -->
     <!-- End Google Tag Manager -->
+
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-230716602-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-230716602-1');
+    </script>
+
     <meta charset="UTF-8" />
     <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0,  user-scalable=no" />
@@ -46,7 +61,7 @@
     <link rel='stylesheet' href='assets/css/responsive.css' type='text/css' media='all' /> -->
     <link rel='stylesheet' href='assets/css/app.min.css?ver=1.2.0' type='text/css' media='all' />
     <!-- Global site tag (gtag.js) - Google Ads: 365701067 -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-365701067"></script>
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=AW-365701067"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
 
@@ -56,7 +71,7 @@
         gtag('js', new Date());
 
         gtag('config', 'AW-365701067');
-    </script>
+    </script> -->
     <!-- Facebook Pixel Code -->
     <script>
         ! function(f, b, e, v, n, t, s) {
@@ -86,7 +101,7 @@
 
 <body>
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PVP3H42" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=UA-230716602-1" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     <div id="loader-wrapper">
         <div id="loader">
