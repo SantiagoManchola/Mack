@@ -2,27 +2,6 @@
 <html lang="es-CO">
 
 <head>
-
-    <!-- Google Tag Manager -->
-    <!-- <script>
-        (function(w, d, s, l, i) {
-            w[l] = w[l] || [];
-            w[l].push({
-                'gtm.start': new Date().getTime(),
-                event: 'gtm.js'
-            });
-            var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s),
-                dl = l != 'dataLayer' ? '&l=' + l : '';
-            j.async = true;
-            j.src =
-                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-            f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-PVP3H42');
-    </script> -->
-    <!-- End Google Tag Manager -->
-
-
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-230716602-1"></script>
     <script>
@@ -52,26 +31,9 @@
     <!--Style-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
-    <!-- <link rel='stylesheet' href='assets/css/bootstrap.min.css' type='text/css' media='all' />
-    <link rel='stylesheet' href='assets/css/font-awesome.min.css' type='text/css' media='all' />
-    <link rel='stylesheet' href='assets/css/animate.css' type='text/css' media='all' />
-    <link rel='stylesheet' href='assets/css/sweetalert2.min.css' type='text/css' media='all' />
-    <link rel='stylesheet' href='assets/css/style.css' type='text/css' media='all' />
-    <link rel='stylesheet' href='assets/css/app.css' type='text/css' media='all' />
-    <link rel='stylesheet' href='assets/css/responsive.css' type='text/css' media='all' /> -->
+
     <link rel='stylesheet' href='assets/css/app.min.css?ver=1.2.0' type='text/css' media='all' />
-    <!-- Global site tag (gtag.js) - Google Ads: 365701067 -->
-    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=AW-365701067"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'AW-365701067');
-    </script> -->
     <!-- Facebook Pixel Code -->
     <script>
         ! function(f, b, e, v, n, t, s) {
