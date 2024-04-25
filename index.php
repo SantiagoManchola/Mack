@@ -84,27 +84,6 @@
                     <a class="navbar-brand logo-mack" href="index.php" title="Mack">
                         <img src="assets/images/logo.svg" alt="Mack">
                     </a>
-                    <div id="navbarSupportedContent" class="navbar-collapse">
-                        <div class="header-socials">
-                            <ul class="s-links-icons text-center clearfix">
-                                <li>
-                                    <a class="s-link ico-facebook" href="https://www.facebook.com/macktruckscol/" target="_blank" title="facebook">
-                                        <i class="fa fa-facebook"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="s-link ico-instagram" href="https://www.instagram.com/macktruckscol/" target="_blank" title="instagram">
-                                        <i class="fa fa-instagram"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="s-link ico-youtube" href="https://www.youtube.com/channel/UCxCRkT9ykTeYYQ_5OfXtzSA/featured" target="_blank" title="youtube">
-                                        <i class="fa fa-youtube"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
                 </div>
             </nav>
         </header>
