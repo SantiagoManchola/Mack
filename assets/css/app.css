@@ -17408,7 +17408,7 @@
   footer {
     padding: 29px 0;
   }
-  footer .copyrights p {
+  footer .copyrights p,a {
     font-size: 14px;
     font-weight: 400;
     color: #fff;

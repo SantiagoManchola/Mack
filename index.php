@@ -315,21 +315,27 @@
             <div class="footer-socials-copyright style_2 footer-copyright">
                 <div class="container">
                     <div class="row bottom-footer">
-                        <div class="col-sm-4 d-flex align-items-center">
+                        <div class="col-sm-3 d-flex align-items-center justify-content-center">
                             <div class="copyrights footer-bottom">
                                 <p><a href="https://solucionsoft.com/" target="_blank" class="credit">Powered by: <span>Solucionsoft.com</span></a></p>
                             </div>
                         </div>
-                        <div class="col-sm-4 d-flex align-items-center justify-content-center">
+                        <div class="col-sm-3 d-flex align-items-center justify-content-center">
                             <div class="copyrights footer-bottom">
                                 <p>MackTrucks @ 2021 All rights reserved</p>
                             </div>
                         </div>
-                        <div class="col-sm-4 text-right">
+                        <div class="col-sm-3 d-flex align-items-center justify-content-center">
+                            <div class="copyrights footer-bottom">
+                                <a href="https://pracodidacol.com/terminos-condiciones/" download="" target="_blank">Políticas de uso de datos personales</a>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 text-right">
                             <a href="https://www.macktrucks.com/" class="logoF" target="_blank">
                                 <img src="assets/images/logo.svg" />
                             </a>
                         </div>
+
                     </div>
                 </div>
             </div>
