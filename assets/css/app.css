@@ -510,6 +510,9 @@
     margin-right: auto;
     margin-left: auto;
   }
+  .container-form{
+    padding: 25px 0;
+  }
   @media (min-width: 576px) {
     .container {
       max-width: 540px;
@@ -1815,27 +1818,20 @@
   }
   .form-control {
     display: block;
+    color: var(--light);
     width: 100%;
     padding: 0.375rem 0.75rem;
     font-size: 1rem;
     line-height: 1.5;
-    color: #495057;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid #ced4da;
     border-radius: 0.25rem;
-    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   }
   .form-control::-ms-expand {
     background-color: transparent;
     border: 0;
   }
   .form-control:focus {
-    color: #495057;
-    background-color: #fff;
-    border-color: #80bdff;
     outline: 0;
-    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    box-shadow: 0 0 0 0.2rem rgba(236, 217, 107, 0.25);
   }
   .form-control::-webkit-input-placeholder {
     color: #868e96;
@@ -18204,16 +18200,16 @@
     text-align: justify;
   }
   .bg_form .campaing {
-    text-align: right;
+    text-align: left;
   }
   .bg_form .campaing h6 {
     font-weight: 800;
     font-size: 14px;
     color: #fff;
     text-transform: uppercase;
-    text-align: right;
+    text-align: left;
     width: 110%;
-    float: right;
+    float: left;
     margin: 23px ​0 4px;
   }
   .bg_form .campaing p {
@@ -18222,9 +18218,9 @@
     font-size: 11px;
     text-transform: uppercase;
     line-height: 16px;
-    text-align: right;
+    text-align: left;
     width: 120%;
-    float: right;
+    float: left;
   }
   .checkAutorizoInfo {
     display: none;
@@ -18363,13 +18359,13 @@
     color: #fff;
   }
   body .form-group .form-control {
-    background: #000;
-    border-color: #000;
+    background: black;
+    border-color: var(--primary-color);
+    color: var(--light);
     padding: 0.44rem 0.75rem;
     border-radius: 0;
     font-weight: 600;
     font-size: 16px;
-    color: var(--primary-color);
     -webkit-transition: all 0.2s ease-out;
     -o-transition: all 0.2s ease-out;
     -ms-transition: all 0.2s ease-out;
