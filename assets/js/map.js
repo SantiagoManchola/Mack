@@ -277,7 +277,6 @@ jQuery(window).ready(function(){
                     '<h1>' + locations[i][1] + '</h1>' +
                     '<p>' + 'Teléfono: ' + locations[i][2] + '</p>' +
                     '<p>' + 'Dirección: ' + locations[i][3] + '</p>' +
-                    '<a href="https://waze.com/ul?ll='+locations[i][4]+','+locations[i][5]+'" target="_blank" class="btn btn-primary"><img src="assets/images/waze-icon.svg" alt="PracoDidacol"/> Encontrar Ruta...</a>' +
                   '</div>'
                 );
                 infowindow.open(map, marker);
