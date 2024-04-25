@@ -252,7 +252,7 @@
                                 </div>
                                 <div class="col-sm-12 campaing">
                                     <h6>FORTALECEMOS EL VÍNCULO ESENCIAL ENTRE EL HOMBRE Y LA MÁQUINA</h6>
-                                    <p>*VÁLIDO DEL 1 DE NOVIEMBRE DEL 2021 AL 31 DE MARZO DEL 2022 O HASTA AGOTAR UNIDADES DISPONIBLES. MAYOR INFORMACIÓN EN WWW.PRACODIDACOL.COM.</p>
+                                    <p>Imágenes de referencia los PVSP, disponibilidad, modelos y accesorios pueden variar según el mercado local, lo cual sugerimos validar con su asesor de preferencia. Más información en <strong><a href="https://www.pracodidacol.com">www.pracodidacol.com.</a></strong></p>
                                     <div>
                                     </div>
                         </form>
